@@ -6,11 +6,13 @@ function importAllIcons() {
     /\.(svg|png|jpe?g)$/, // 文件类型匹配规则
   );
 
+  let arr:any = []
   requireIcon.keys().forEach((filename: any) => {
     const iconName: any = filename.replace(/^\.\//, '').replace(/\.(svg|png|jpe?g)$/, '');
     icons[iconName] = requireIcon(filename);
+    arr.push(iconName)
   });
-  return icons;
+  return arr;
 }
 
 const icons = importAllIcons();
