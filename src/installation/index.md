@@ -21,6 +21,6 @@ react-element-pc 目前还处于快速开发迭代中。
 # 选择一个你喜欢的包管理器
 
 # NPM
-$ npm install react-element-pc --save
+$ npm install pear-element --save
 ```
 

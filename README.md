@@ -1,5 +1,5 @@
 # 安装
-`npm i react-element-pc`
+`npm i pear-element`
 
 ## 使用
 
@@ -7,7 +7,7 @@
 我们可以按需引入，单独导入某一个组件即可使用。
 ```js
 import React from 'react';
-import { Button } from 'react-element-pc';
+import { Button } from 'pear-element';
 
 export default function ButtonDemo1() {
   return (
@@ -55,5 +55,8 @@ import {
   Table,
   Tabs,
   TabPane
-} from "react-element-pc"
+} from "pear-element"
 ```
+
+## 使用文档
+> 文档参考链接 https://yanyuehai.github.io/pear-element/#/

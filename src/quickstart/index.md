@@ -14,7 +14,7 @@ group:
 我们可以按需引入，单独导入某一个组件即可使用。
 ```js
 import React from 'react';
-import { Button } from 'react-element-pc';
+import { Button } from 'pear-element';
 
 export default function ButtonDemo1() {
   return (
@@ -62,7 +62,7 @@ import {
   Table,
   Tabs,
   TabPane
-} from "react-element-pc"
+} from "pear-element"
 ```
 
 ## 开始使用
