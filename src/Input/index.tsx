@@ -8,7 +8,6 @@ const Input: FC<InputProps> = memo(
     height,
     bordered,
     defaultValue,
-    value,
     disabled,
     inputBorder,
     handleChange,
@@ -54,13 +53,12 @@ const Input: FC<InputProps> = memo(
           disabled={disabled}
           className={className}
           style={style}
-          value={value ? value : ''}
-          onChange={(e) => (handleChange ? handleChange({ value: e.currentTarget.value }) : null)}
+          onChange={(e) => (handleChange ? handleChange({ value: e.target.value }) : null)}
           onBlur={(e) => {
-            handleBlur ? handleBlur({ value: e.currentTarget.value }) : null;
+            handleBlur ? handleBlur({ value: e.target.value }) : null;
           }}
           onFocus={(e) => {
-            handleFcus ? handleFcus({ value: e.currentTarget.value }) : null;
+            handleFcus ? handleFcus({ value: e.target.value }) : null;
           }}
         />
       </div>
