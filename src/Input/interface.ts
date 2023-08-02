@@ -24,10 +24,6 @@ export interface InputProps {
    */
   defaultValue?: any;
   /**
-   * @description 输入框内容
-   */
-  value?: string;
-  /**
    * @description 是否禁用
    * @default false
    */
