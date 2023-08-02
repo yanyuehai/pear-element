@@ -16,9 +16,9 @@ group:
 import React from 'react';
 import { Button } from 'pear-element';
 
-export default function ButtonDemo1() {
+export default function () {
   return (
-    <div style={{ display: 'flex', justifyContent: 'space-around' }}>
+    <div>
       <Button type="primary" >基础按钮</Button>
       <Button type="success">成功按钮</Button>
       <Button type="danger">危险按钮</Button>
@@ -61,7 +61,8 @@ import {
   Switch,
   Table,
   Tabs,
-  TabPane
+  TabPane,
+  Tag
 } from "pear-element"
 ```
 
