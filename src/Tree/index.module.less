@@ -1,0 +1,41 @@
+.tree_father {
+  display: inline-block;
+  user-select: none;
+
+  .title {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+  }
+
+  .icon {
+    transition: all 0.3s;
+  }
+
+  .title_text {
+    display: block;
+    margin-left: 5px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.04);
+    }
+  }
+
+  .tree_show {
+    height: auto;
+    transition: all 0.3s;
+  }
+}
+
+.text {
+  .title {
+    padding: 5px;
+  }
+}
+
+.tree_son {
+  height: 0px;
+  overflow: hidden;
+  transition: all 0.3s;
+}

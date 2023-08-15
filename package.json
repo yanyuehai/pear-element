@@ -1,7 +1,7 @@
 {
-  "private": true,
+  "private": false,
   "name": "pear-element",
-  "version": "1.0.0",
+  "version": "1.0.19",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",

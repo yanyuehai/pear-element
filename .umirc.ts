@@ -51,7 +51,7 @@ export default defineConfig({
     },
     {
       title: 'GitHub',
-      path: 'https://github.com/yanyuehai/react-element',
+      path: 'https://github.com/yanyuehai/pear-element',
     },
   ],
 });

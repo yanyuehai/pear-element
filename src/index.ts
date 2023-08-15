@@ -30,3 +30,4 @@ export { default as Table } from './Table';
 export { default as Tabs } from './Tabs/Tabs';
 export { default as TabPane } from './Tabs/TabPane';
 export { default as Tag } from './Tag';
+export { default as Tree } from './Tree';
